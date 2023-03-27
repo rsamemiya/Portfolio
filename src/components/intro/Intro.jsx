@@ -1,30 +1,31 @@
 import "./intro.css";
-import Ron from "../..//img/Ron.png";
+import ron3 from "../..//img/ron3.png";
 
 const Intro = () => {
   return (
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
+          <h2 className="i-intro">Hello! My name is</h2>
           <h1 className="i-name">Ron Seng</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
+              <div className="i-title-item">Software Engineer</div>
+              <div className="i-title-item">Scientist</div>
               <div className="i-title-item">Photographer</div>
               <div className="i-title-item">Surfer</div>
               <div className="i-title-item">MotorSport Enthusiast</div>
             </div>
           </div>
-          <p className="i-desc">Hi! My name is Ron and I lava pizza!</p>
+          <p className="i-desc"></p>
           <div className='button-wrapper'>
-              <a className="button-28" href="https://www.linkedin.com/in/thinh-mai/"role="button">LinkedIn</a>
-              <a className="button-28" href="https://gitlab.com/thinhmai1027" role="button">GitLab</a>
+              <a className="button-28" href="https://www.linkedin.com/in/ron-seng/"role="button">LinkedIn</a>
+              <a className="button-28" href="https://gitlab.com/rseng"role="button">GitLab</a>
               <a className="button-28" href="https://docs.google.com/document/d/1FmnI1xMuAfaNkABjO3VlCEOJ7Awu06bgRXFzlZcY8rU/edit?usp=sharing" role="button">Resume</a>
             </div>
         </div>
-        <svg
+        {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -79,11 +80,11 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Ron} alt="" className="i-img" />
+        <img src={ron3} alt="" className="i-img" />
       </div>
     </div>
   );
