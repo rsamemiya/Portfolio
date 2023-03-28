@@ -22,7 +22,7 @@ const Intro = () => {
           <div className='button-wrapper'>
               <a className="button-28" href="https://www.linkedin.com/in/ron-seng/"role="button">LinkedIn</a>
               <a className="button-28" href="https://gitlab.com/rseng"role="button">GitLab</a>
-              <a className="button-28" href="https://docs.google.com/document/d/1FmnI1xMuAfaNkABjO3VlCEOJ7Awu06bgRXFzlZcY8rU/edit?usp=sharing" role="button">Resume</a>
+              <a className="button-28" href="https://docs.google.com/document/d/1uI9GeA9ZqNu-3TX4VThPYxg2yajf4gntUU8YmMXG5QY/edit?usp=sharing" role="button">Resume</a>
             </div>
         </div>
         {/* <svg
