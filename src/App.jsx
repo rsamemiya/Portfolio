@@ -2,7 +2,6 @@
 import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
-import Toggle from "./components/toggle/Toggle";
 // import { ThemeContext } from "./context";
 
 const App = () => {
