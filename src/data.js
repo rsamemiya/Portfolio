@@ -22,7 +22,7 @@ export const products = [
       img: moneyme,
       link: "https://gitlab.com/rseng/moneyme",
       title: "MoneyMe",
-      desc: "Keep track of your Yearly/Montly spending by creating expense reports that will visually outline how much you're spending!"
+      desc: "Keep track of your Yearly/Monthly spending by creating expense reports that will visually outline how much you're spending!"
     },
     // {
     //   id: 4,
